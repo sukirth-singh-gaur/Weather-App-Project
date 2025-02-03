@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bg-white">
+    <div class="flex justify-center">
+    <div id="Display-Weather" class="bg-slate-100 py-4 px-24 w-max m-5  rounded-md drop-shadow-lg">
+        <form class="text-center" id="searchHere">
+            <div class="flex justify-stretch">
+                <label for="cityName" class="font-semibold pb-2 text-black text-lg">Enter your city</label>
+                <button id="search" class="bg-slate-200 rounded-md w-max p-1 h-max mx-2 text-slate-700 font-light px-3 drop-shadow-md hover:bg-slate-800 hover:text-white">Show</button>
+            </div>
+            <div class="pt-1"><input type="text" name="cityName" id="cityName" size="20" class="bg-slate-200 rounded-md border-0 p-1 text-slate-600 font-light">
+                <div class="flex justify-center" id="DisplayHere">
+                
+                </div>
+            </div>
+        </form>
+        <div id="Weather-Results"></div>
+    </div>
+</div>
+    <script src="app.js"></script>
+</html>

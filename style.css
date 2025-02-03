@@ -1,0 +1,42 @@
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.CityName{
+    color: rgb(82, 82, 91);
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 0.5rem ;
+    text-align: center;
+}
+.details{
+    color: rgb(82, 82, 91);
+    font-weight: 600;
+    font-size: medium;
+    padding-top: 0.125rem ;
+    text-align: left;
+}
+.time{
+    color: rgb(82, 82, 91);
+    font-weight: 500;
+    font-size: small;
+    padding-top: 0.125rem ;
+    text-align: center;
+}
+
+.searchResults p:hover{
+    background-color: rgb(30, 41, 59);
+    color:white;
+}
+.searchResults{
+    border-radius: 0.125rem;
+    width:11rem;
+    background-color: rgb(226,232,240);
+    font-weight: 300;
+    box-shadow: 0 0px 20px rgb(0 0 0 / 0.07);
+    border-bottom-right-radius: 0.375rem; /* 6px */
+    border-bottom-left-radius: 0.375rem; /* 6px */
+}
